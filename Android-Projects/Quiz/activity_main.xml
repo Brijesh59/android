@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:text="GENRAL QUIZ"
+                android:textSize="28dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="18dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. What is the National Bird of India?"
+                    android:textSize="19dp"
+                    android:layout_marginBottom="10dp"
+                    />
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/bird">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Peacock"
+                        android:textSize="15dp"
+                        android:layout_marginRight="19dp"
+                        android:id="@+id/peacock"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Crow"
+                        android:textSize="15dp"
+                        android:layout_marginRight="19dp"
+                        android:id="@+id/crow"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kuku"
+                        android:textSize="15dp"
+                        android:layout_marginRight="19dp"
+                        android:id="@+id/kuku"/>
+                </RadioGroup>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. What is the National Animal of India?"
+                    android:textSize="19dp"
+                    android:layout_marginBottom="10dp"
+                    />
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/animal">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dog"
+                        android:textSize="15dp"
+                        android:layout_marginRight="19dp"
+                        android:id="@+id/dog"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cat"
+                        android:textSize="15dp"
+                        android:layout_marginRight="19dp"
+                        android:id="@+id/cat"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tigeress"
+                        android:textSize="15dp"
+                        android:layout_marginRight="19dp"
+                        android:id="@+id/tigeress"/>
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. What is the National Song of India?"
+                    android:textSize="19dp"
+                    android:layout_marginBottom="10dp"
+                    />
+
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/song">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Vande Matram"
+                        android:textSize="15dp"
+                        android:layout_marginRight="15dp"
+                        android:id="@+id/vandematram"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jan Gan"
+                        android:textSize="15dp"
+                        android:layout_marginRight="15dp"
+                        android:id="@+id/jangan"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jai Ho"
+                        android:textSize="15dp"
+                        android:layout_marginRight="19dp"
+                        android:id="@+id/jaiho"/>
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. What is the National Flower of India?"
+                    android:textSize="19dp"
+                    android:layout_marginBottom="10dp"
+                    />
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/flower">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rose"
+                        android:textSize="15dp"
+                        android:layout_marginRight="19dp"
+                        android:id="@+id/rose"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lotus"
+                        android:textSize="15dp"
+                        android:layout_marginRight="19dp"
+                        android:id="@+id/lotus"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lily"
+                        android:textSize="15dp"
+                        android:layout_marginRight="19dp"
+                        android:id="@+id/lily"/>
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5. Who are  Singers of India?"
+                    android:textSize="19dp"
+                    android:layout_marginBottom="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Arjit"
+                        android:textSize="15dp"
+                        android:layout_marginRight="19dp"
+                        android:id="@+id/arjit"
+                        />
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Armaan"
+                        android:textSize="15dp"
+                        android:layout_marginRight="19dp"
+                        android:id="@+id/armaan"/>
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dhinchak Puja"
+                        android:textSize="15dp"
+                        android:layout_marginRight="19dp"
+                        android:id="@+id/dhinchakpuja"/>
+
+                </LinearLayout>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Submit"
+                    android:textSize="27dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/submit"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
