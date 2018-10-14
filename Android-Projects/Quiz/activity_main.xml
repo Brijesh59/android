@@ -220,16 +220,33 @@
                         android:id="@+id/dhinchakpuja"/>
 
                 </LinearLayout>
-                <Button
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Submit"
-                    android:textSize="27dp"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="18dp"
-                    android:layout_marginBottom="10dp"
-                    android:id="@+id/submit"
-                    />
+                    >
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Submit"
+                        android:textSize="27dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/submit"
+                        android:layout_marginLeft="30dp"
+                        />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Reset"
+                        android:textSize="27dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/reset"
+                        android:onClick="reset"
+                        android:layout_marginLeft="20dp"
+                        />
+                </LinearLayout>
+
 
 
             </LinearLayout>
