@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bg"
     tools:context=".MainActivity">
     <ScrollView
         android:layout_width="wrap_content"
@@ -15,12 +16,14 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="191dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="18dp"
+                android:fontFamily="@font/bangers"
                 android:text="GENRAL QUIZ"
-                android:textSize="28dp" />
+                android:textSize="38dp"
+                android:textColor="@color/textbg"/>
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -224,26 +227,33 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     >
+
                     <Button
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Submit"
-                        android:textSize="27dp"
-                        android:layout_marginTop="18dp"
-                        android:layout_marginBottom="10dp"
                         android:id="@+id/submit"
-                        android:layout_marginLeft="30dp"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="18dp"
+                        android:background="@color/sky"
+                        android:textColor="@color/white"
+                        android:text="Submit"
+                        android:textSize="20dp"
+                        android:padding="10dp"
                         />
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:text="Reset"
-                        android:textSize="27dp"
+                        android:padding="10dp"
+                        android:textSize="20dp"
+                        android:background="@color/info"
+                        android:textColor="@color/white"
                         android:layout_marginTop="18dp"
                         android:layout_marginBottom="10dp"
                         android:id="@+id/reset"
                         android:onClick="reset"
-                        android:layout_marginLeft="20dp"
+                        android:layout_marginLeft="15dp"
                         />
                 </LinearLayout>
 
