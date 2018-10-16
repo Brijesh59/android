@@ -1,5 +1,4 @@
 package com.example.infinity.quiz02;
-
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,8 +7,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.widget.RelativeLayout;
-import android.widget.Toast;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -45,38 +43,58 @@ public class MainActivity extends AppCompatActivity {
 
     public int calculate(){
         int result = 0;
-        // caculate and return  marks
+        // caculate and return result
+
         /* Question 1 */
         radioGroup = findViewById(R.id.bird);
-        radioButton = findViewById(radioGroup.getCheckedRadioButtonId());
-        String bird = (String) radioButton.getText();
-        if(bird.equals("Peacock")){
-            result = result + 1;
+        try{
+            radioButton = findViewById(radioGroup.getCheckedRadioButtonId());
+            String bird = (String) radioButton.getText();
+            if(bird.equals("Peacock")){
+                result = result + 1;
+            }
+        }
+        catch (NullPointerException e){
+            System.out.println(e);
         }
 
         /* Question 2 */
          radioGroup = findViewById(R.id.animal);
-         radioButton = findViewById(radioGroup.getCheckedRadioButtonId());
-         String animal = radioButton.getText().toString();
-         if(animal.equals("Tigeress")){
-             result = result + 1;
+         try{
+             radioButton = findViewById(radioGroup.getCheckedRadioButtonId());
+             String animal = radioButton.getText().toString();
+             if(animal.equals("Tigeress")){
+                 result = result + 1;
+             }
          }
-
+         catch (NullPointerException e){
+             System.out.println(e);
+         }
 
         /* Question 3 */
         radioGroup = findViewById(R.id.song);
-        radioButton = findViewById(radioGroup.getCheckedRadioButtonId());
-        String song = radioButton.getText().toString();
-        if(song.equals("Vande Matram")){
-            result = result + 1;
+        try{
+            radioButton = findViewById(radioGroup.getCheckedRadioButtonId());
+            String song = radioButton.getText().toString();
+            if(song.equals("Vande Matram")){
+                result = result + 1;
+            }
+        }
+        catch (NullPointerException e){
+            System.out.println(e);
         }
 
         /* Question 4 */
         radioGroup = findViewById(R.id.flower);
-        radioButton = findViewById(radioGroup.getCheckedRadioButtonId());
-        String flower = radioButton.getText().toString();
-        if(flower.equals("Lotus")){
-            result = result + 1;
+        try{
+            radioButton = findViewById(radioGroup.getCheckedRadioButtonId());
+            String flower = radioButton.getText().toString();
+            if(flower.equals("Lotus")){
+                result = result + 1;
+            }
+        }
+        catch (Exception e){
+            System.out.println(e);
         }
 
         /* Question 5 */
@@ -92,41 +110,30 @@ public class MainActivity extends AppCompatActivity {
 
     public void reset(View v){
         RadioGroup rg1, rg2, rg3, rg4;
-        RadioButton rb1, rb2, rb3, rb4;
         CheckBox chBox1, chBox2, chBox3;
 
         rg1 = findViewById(R.id.bird);
-        rb1 = findViewById(rg1.getCheckedRadioButtonId());
-
         rg2 = findViewById(R.id.animal);
-        rb2 = findViewById(rg2.getCheckedRadioButtonId());
-
         rg3 = findViewById(R.id.song);
-        rb3 = findViewById(rg3.getCheckedRadioButtonId());
-
         rg4 = findViewById(R.id.flower);
-        rb4 = findViewById(rg4.getCheckedRadioButtonId());
 
         chBox1 = findViewById(R.id.arjit);
-        chBox2 =  findViewById(R.id.armaan);
+        chBox2 = findViewById(R.id.armaan);
         chBox3 = findViewById(R.id.dhinchakpuja);
 
-        rb1.setChecked(false);
-        rb2.setChecked(false);
-        rb3.setChecked(false);
-        rb4.setChecked(false);
+        /* clearCheck() is a method for radioGroup. It clears/unChecks the selected radio button*/
+        rg1.clearCheck();
+        rg2.clearCheck();
+        rg3.clearCheck();
+        rg4.clearCheck();
 
-         if(chBox1.isChecked())
-         {
-             chBox1.setChecked(false);
-         }
-
-        if(chBox2.isChecked())
-        {
+        if (chBox1.isChecked()) {
+            chBox1.setChecked(false);
+        }
+        if (chBox2.isChecked()) {
             chBox2.setChecked(false);
         }
-        if(chBox3.isChecked())
-        {
+        if (chBox3.isChecked()) {
             chBox3.setChecked(false);
         }
     }
