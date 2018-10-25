@@ -1,134 +1,75 @@
-package com.example.infinity.quiz02;
+package com.example.infinity.elements_selector;
 
-import android.content.Intent;
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Editable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    LinearLayout parent;
+    EditText editText;
     RadioGroup radioGroup;
-    RadioButton radioButton;
+    RadioButton selectedRadioButton;
     CheckBox checkBox1, checkBox2, checkBox3;
-    Button submit;
+    Button submitBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        submit = findViewById(R.id.submit);
-        submit.setOnClickListener(new View.OnClickListener() {
+        parent = findViewById(R.id.parent);
+        editText = findViewById(R.id.editText);
+        radioGroup = findViewById(R.id.radioGroup);
+        checkBox1 = findViewById(R.id.chBox1);
+        checkBox2 = findViewById(R.id.chBox2);
+        checkBox3 = findViewById(R.id.chBox3);
+        submitBtn = findViewById(R.id.submitBtn);
+
+        submitBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                String text = editText.getText().toString();
+                // get the id of selected radio button using getCheckedRadioButtonId
+                selectedRadioButton = findViewById(radioGroup.getCheckedRadioButtonId());
+                String selectedRadioBtnText = selectedRadioButton.getText().toString();
 
-                int marks = calculate();
-                String status = "Fail";
-                if(marks >= 3){
-                    status = "Pass";
-                }
-
-                Intent i = new Intent(MainActivity.this, Result.class);
-                i.putExtra("score", marks);
-                i.putExtra("status", " "+ status);
-                startActivity(i);
+                Toast.makeText(MainActivity.this, "Edit Text: " + text + "\nRadio Button: " + selectedRadioBtnText, Toast.LENGTH_LONG).show();
             }
         });
-
     }
 
-    public int calculate(){
-        int result = 0;
-        // caculate and return  marks
-        /* Question 1 */
-        radioGroup = findViewById(R.id.bird);
-        radioButton = findViewById(radioGroup.getCheckedRadioButtonId());
-        String bird = (String) radioButton.getText();
-        if(bird.equals("Peacock")){
-            result = result + 1;
+    public void changeBackground(View v){
+        if(checkBox1.isChecked()){
+            parent.setBackgroundColor(Color.rgb(255,182,193));
+        }
+        else if(checkBox2.isChecked()){
+            parent.setBackgroundColor(Color.rgb(255,255,51));
+        }
+        else if(checkBox3.isChecked()){
+            parent.setBackgroundColor(Color.rgb(255,0,0));
+        }
+        else {
+            parent.setBackgroundColor(Color.rgb(255,255,255));
         }
 
-        /* Question 2 */
-         radioGroup = findViewById(R.id.animal);
-         radioButton = findViewById(radioGroup.getCheckedRadioButtonId());
-         String animal = radioButton.getText().toString();
-         if(animal.equals("Tigeress")){
-             result = result + 1;
-         }
-
-
-        /* Question 3 */
-        radioGroup = findViewById(R.id.song);
-        radioButton = findViewById(radioGroup.getCheckedRadioButtonId());
-        String song = radioButton.getText().toString();
-        if(song.equals("Vande Matram")){
-            result = result + 1;
+        /*
+        CheckBox chBox = (CheckBox) v;
+        if(chBox.isChecked()){
+            Toast.makeText(this, chBox.getText() + " Selected", Toast.LENGTH_SHORT).show();
         }
-
-        /* Question 4 */
-        radioGroup = findViewById(R.id.flower);
-        radioButton = findViewById(radioGroup.getCheckedRadioButtonId());
-        String flower = radioButton.getText().toString();
-        if(flower.equals("Lotus")){
-            result = result + 1;
+        else{
+            Toast.makeText(this, chBox.getText() + " De Selected", Toast.LENGTH_SHORT).show();
         }
-
-        /* Question 5 */
-        checkBox1 =  findViewById(R.id.arjit);
-        checkBox2 = findViewById(R.id.armaan);
-        checkBox3 = findViewById(R.id.dhinchakpuja);
-        if(checkBox1.isChecked() && checkBox2.isChecked() && !checkBox3.isChecked()){
-            result = result + 1;
-        }
-
-        return result;
+        */
     }
-
-    public void reset(View v){
-        RadioGroup rg1, rg2, rg3, rg4;
-        RadioButton rb1, rb2, rb3, rb4;
-        CheckBox chBox1, chBox2, chBox3;
-
-        rg1 = findViewById(R.id.bird);
-        rb1 = findViewById(rg1.getCheckedRadioButtonId());
-
-        rg2 = findViewById(R.id.animal);
-        rb2 = findViewById(rg2.getCheckedRadioButtonId());
-
-        rg3 = findViewById(R.id.song);
-        rb3 = findViewById(rg3.getCheckedRadioButtonId());
-
-        rg4 = findViewById(R.id.flower);
-        rb4 = findViewById(rg4.getCheckedRadioButtonId());
-
-        chBox1 = findViewById(R.id.arjit);
-        chBox2 =  findViewById(R.id.armaan);
-        chBox3 = findViewById(R.id.dhinchakpuja);
-
-        rb1.setChecked(false);
-        rb2.setChecked(false);
-        rb3.setChecked(false);
-        rb4.setChecked(false);
-
-         if(chBox1.isChecked())
-         {
-             chBox1.setChecked(false);
-         }
-
-        if(chBox2.isChecked())
-        {
-            chBox2.setChecked(false);
-        }
-        if(chBox3.isChecked())
-        {
-            chBox3.setChecked(false);
-        }
-    }
-
 }
