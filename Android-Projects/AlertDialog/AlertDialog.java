@@ -1,6 +1,6 @@
 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-builder.setTitle("Score");
-builder.setMessage("Show Score");
+builder.setTitle("Your Title");
+builder.setMessage("Your Message");
 builder.setCancelable(true);
 
 builder1.setPositiveButton( "Yes", new DialogInterface.OnClickListener() {
