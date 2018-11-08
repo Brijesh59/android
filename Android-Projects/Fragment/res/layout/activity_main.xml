@@ -41,6 +41,6 @@
         android:layout_height="match_parent"
         android:layout_marginTop="10dp"
         android:layout_below="@id/btn2"
-        android:name="com.example.infinity.fragment.Fragment1"/>
+        android:name="com.example.infinity.fragment.Fragment1"/>  <!-- make Fragment1 to show by default using 'name' property-->
 
 </RelativeLayout>
