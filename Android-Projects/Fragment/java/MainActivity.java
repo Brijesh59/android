@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             Fragment fr = new Fragment1();
             FragmentManager fm = getSupportFragmentManager();
             FragmentTransaction ft = fm.beginTransaction();
-            ft.replace(R.id.containerfrag, new Fragment1());
+            ft.replace(R.id.containerfrag, fr);
             ft.commit();
         }
         
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             Fragment fr = new Fragment2();
             FragmentManager fm = getSupportFragmentManager();
             FragmentTransaction ft = fm.beginTransaction();
-            ft.replace(R.id.containerfrag, new Fragment2());
+            ft.replace(R.id.containerfrag, fr);
             ft.commit();
         }
         
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
             Fragment fr = new Fragment3();
             FragmentManager fm = getSupportFragmentManager();
             FragmentTransaction ft = fm.beginTransaction();
-            ft.replace(R.id.containerfrag, new Fragment3());
+            ft.replace(R.id.containerfrag, fr);
             ft.commit();
         }
     }
