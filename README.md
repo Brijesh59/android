@@ -18,4 +18,30 @@
     - ConstraintLayout
     - FrameLayout
     - TableLayout
+8. Most commonly used Views in android
+   - TextView
+   - EditText
+   - Button
+   - ImageView
+   - CheckBox
+   - RadioButton & RadioGroup
+   - ToggleButton
+   - Switch
+   - CardView
+   - FloatingActionButton
+   - ScrollView
+   - Rating Bar
+   - WebView
+   - VideoView
+   - SearchView
+   - ProgressBar
+   - TabLayout
+   - Toolbar
+   - NavigationView
+   - BottomNavigationView
+   - ListView
+   - GridView
+   - GridLayout
+   - AdView
+   - MapView
   
