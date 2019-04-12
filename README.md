@@ -46,10 +46,10 @@
    - MapView
 9. Binding Views using findViewById  &  R.java file
 10. Intent
-   - Implicit and Explicit Intents
-   - Sending and Receiving data from parent to child 
-   - Pending Intents
-   - Intent Filter
+      - Implicit and Explicit Intents
+      - Sending and Receiving data from parent to child 
+      - Pending Intents
+      - Intent Filter
 11. Permissions in Android
    - Permissions Before and After Android Marshmallow(Android 6.0 or API 23) (Theory)
    - Normal & Dangerous Permissions (Theory)
