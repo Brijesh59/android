@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/normalAlertDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Normal AlertDialog"
+        android:onClick="showNormalAlertDialog"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/alertDialogList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog with List"
+        android:onClick="showAlertDialogList"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/alertDialogSingleChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SingleChoice AlerDialog"
+        android:onClick="showAlertDialogSingleChoice"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/alertDialogMultiChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MultiChoice AlertDialog"
+        android:onClick="showAlertDialogMultiChoice"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/customAlertDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom AlertDialog"
+        android:onClick="showCustomAlertDialog"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
