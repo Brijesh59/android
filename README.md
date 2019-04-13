@@ -29,7 +29,7 @@
    - Switch
    - CardView
    - FloatingActionButton
-   - [ScrollView](https://www.youtube.com/watch?v=wzcFPFCYjFQ) [ | Read](https://developer.android.com/reference/android/widget/ScrollView)
+   - [ScrollView](https://www.youtube.com/watch?v=wzcFPFCYjFQ) | [Read](https://developer.android.com/reference/android/widget/ScrollView)
    - Rating Bar
    - WebView
    - VideoView
