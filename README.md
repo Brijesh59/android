@@ -76,7 +76,7 @@
     - Option menu
     - Context menu
 19. ActionBar & Toolbar
-20. [Toast]("https://www.youtube.com/watch?v=sZ1fLi4QZ-g")
+20. [Toast](https://www.youtube.com/watch?v=sZ1fLi4QZ-g)
       - Normal Toast
       - Custom Toast
 21. AlertDialog
