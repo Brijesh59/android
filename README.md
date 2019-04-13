@@ -61,7 +61,7 @@
       - Static Fragment
       - Dynamic Fragment
       - Data Transfer in fragments
-13. Understanding the concept of adapter and inflater
+13. Understanding the concept of [Adapter](https://www.youtube.com/watch?v=uic3TVp_j3M&t=102s) and [LayoutInflater](https://www.youtube.com/playlist?list=PLLDv5YXzs14jxdPePLNSF5TZRU5WATUjX)
 14. ListView
       - Static ListView
       - Dynamic ListView using ArrayAdapter
