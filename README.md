@@ -29,7 +29,7 @@
    - Switch
    - CardView
    - FloatingActionButton
-   - ScrollView
+   - [ScrollView](https://www.youtube.com/watch?v=wzcFPFCYjFQ)
    - Rating Bar
    - WebView
    - VideoView
@@ -86,7 +86,7 @@
 23. Manifest file in Android
 24. ViewPager
 25. Creating swipe views with Tabs and ViewPager
-26.  Navigation Drawer
+26. Navigation Drawer
 27. Data Storage
       - Shared Preferences
       - Internal Storage
