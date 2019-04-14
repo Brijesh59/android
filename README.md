@@ -79,7 +79,7 @@
 20. [Toast](https://www.youtube.com/watch?v=sVx46awjtFQ)
       - Normal Toast
       - [Custom Toast](https://www.youtube.com/playlist?list=PLLDv5YXzs14grf4yHbEd5kbFFh6_pvcFG)
-21. AlertDialog [Code](https://github.com/Brijesh59/android/tree/master/Android-Projects/AlertDialog)
+21. AlertDialog - [Code](https://github.com/Brijesh59/android/tree/master/Android-Projects/AlertDialog)
       - Normal AlertDialog 
       - Custom AlertDialog 
 22. ProgressBar
