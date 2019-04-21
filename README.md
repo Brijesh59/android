@@ -88,7 +88,7 @@
 25. Creating swipe views with Tabs and ViewPager
 26. Navigation Drawer
 27. Data Storage
-      - Shared Preferences
+      - [Shared Preferences](https://www.youtube.com/playlist?list=PLLDv5YXzs14jirXhhEoTJe07slJy8rvHw)
       - Internal Storage
       - External Storage
       - SQLite
