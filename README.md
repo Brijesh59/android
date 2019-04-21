@@ -86,7 +86,7 @@
 23. Manifest file in Android
 24. ViewPager
 25. Creating swipe views with Tabs and ViewPager
-26. Navigation Drawer
+26. [Navigation Drawer](https://www.youtube.com/playlist?list=PLLDv5YXzs14j3xu_eRGubzrONKKe3ukWr)
 27. Data Storage
       - [Shared Preferences](https://www.youtube.com/playlist?list=PLLDv5YXzs14jirXhhEoTJe07slJy8rvHw)
       - Internal Storage
@@ -94,9 +94,9 @@
       - SQLite
       - ContentProvider
 28. Threading
-      - Tasks
-      - Backstack
-      - Navigation Up and Back
+      - [Tasks](https://www.youtube.com/playlist?list=PLLDv5YXzs14ii8_J_Ew8nXraSqEknFHPs) *Just go with top 3 videos, it would be sufficient for the syllabus
+      - [Backstack](https://www.youtube.com/watch?v=ZbKKxYUOH-c)
+      - [Navigation Up and Back](https://www.youtube.com/watch?v=JkVdP-e9BCo)
       - Thread
       - Process
 29. Handling Orientation Changes in Android
