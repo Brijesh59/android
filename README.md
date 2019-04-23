@@ -90,7 +90,7 @@
 27. Data Storage
       - [Shared Preferences](https://www.youtube.com/playlist?list=PLLDv5YXzs14jirXhhEoTJe07slJy8rvHw)
       - Internal Storage | [Code](https://github.com/Brijesh59/android/tree/master/Android-Projects/InternalStorage)
-      - External Storage
+      - External Storage | [Code](https://github.com/Brijesh59/android/tree/master/Android-Projects/ExternalStorage)
       - SQLite
       - ContentProvider
 28. Threading
