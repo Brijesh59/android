@@ -28,7 +28,7 @@
    - ToggleButton
    - Switch
    - CardView
-   - FloatingActionButton
+   - [FloatingActionButton](https://www.youtube.com/watch?v=EfvCMZgAqG4) | [Read](https://developer.android.com/guide/topics/ui/floating-action-button)
    - [ScrollView](https://www.youtube.com/watch?v=wzcFPFCYjFQ) | [Read](https://developer.android.com/reference/android/widget/ScrollView)
    - Rating Bar
    - WebView
@@ -92,7 +92,7 @@
       - Internal Storage | [Code](https://github.com/Brijesh59/android/tree/master/Android-Projects/InternalStorage)
       - External Storage | [Code](https://github.com/Brijesh59/android/tree/master/Android-Projects/ExternalStorage)
       - SQLite
-      - [ContentProvider](https://www.youtube.com/playlist?list=PLfuE3hOAeWhb7kirY4rBtTLVF73jEXwG4) | [Code](https://github.com/Brijesh59/android/tree/master/Android-Projects/ContentProvider-Loader)
+      - [ContentProvider & Loader](https://www.youtube.com/playlist?list=PLfuE3hOAeWhb7kirY4rBtTLVF73jEXwG4) | [Code](https://github.com/Brijesh59/android/tree/master/Android-Projects/ContentProvider-Loader)
 28. Threading
       - [Tasks](https://www.youtube.com/playlist?list=PLLDv5YXzs14ii8_J_Ew8nXraSqEknFHPs) *Just go with top 3 videos, it would be sufficient for the syllabus
       - [Backstack](https://www.youtube.com/watch?v=ZbKKxYUOH-c)
@@ -103,15 +103,14 @@
 30. Async Task
 31. Services
 32. Broadcast Receiver
-33. Loaders
-34. Job Scheduling
-35. Alarm Manager
-36. Notification Manager
-37. Testing
+33. Job Scheduling
+34. Alarm Manager
+35. Notification Manager
+36. Testing
       - Unit Testing
       - JUnits
       - Functional Testing
-38. Deploying our app to google play store
+37. [Deploying our app to google play store](https://www.youtube.com/watch?v=AWawL5HFn64)
 
 
 
