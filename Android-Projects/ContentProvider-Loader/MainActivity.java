@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     private boolean firstTimeLoaded=false;
 
     private TextView textViewQueryResult;
-    private Button buttonLoadData;
+
 
     private String[] mColumnProjection = new String[]{
             ContactsContract.Contacts.DISPLAY_NAME_PRIMARY,
@@ -54,12 +54,11 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        textViewQueryResult = (TextView) findViewById(R.id.textViewQueryResult);
+        textViewQueryResult = findViewById(R.id.textViewQueryResult);
 
-        buttonLoadData = (Button) findViewById(R.id.buttonLoadData);
-        buttonLoadData.setOnClickListener(this);
 
-        /*ContentResolver contentResolver=getContentResolver();
+        /*
+        ContentResolver contentResolver=getContentResolver();
         Cursor cursor=contentResolver.query(ContactsContract.Contacts.CONTENT_URI,
                 mColumnProjection,
                 null,
@@ -73,7 +72,8 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
             textViewQueryResult.setText(stringBuilderQueryResult.toString());
         }else{
             textViewQueryResult.setText("No Contacts in device");
-        }*/
+        }
+        */
 
 
     }
