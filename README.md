@@ -92,7 +92,7 @@
       - Internal Storage | [Code](https://github.com/Brijesh59/android/tree/master/Android-Projects/InternalStorage)
       - External Storage | [Code](https://github.com/Brijesh59/android/tree/master/Android-Projects/ExternalStorage)
       - SQLite
-      - ContentProvider
+      - [ContentProvider](https://www.youtube.com/playlist?list=PLfuE3hOAeWhb7kirY4rBtTLVF73jEXwG4) | [Code](https://github.com/Brijesh59/android/tree/master/Android-Projects/ContentProvider-Loader)
 28. Threading
       - [Tasks](https://www.youtube.com/playlist?list=PLLDv5YXzs14ii8_J_Ew8nXraSqEknFHPs) *Just go with top 3 videos, it would be sufficient for the syllabus
       - [Backstack](https://www.youtube.com/watch?v=ZbKKxYUOH-c)
