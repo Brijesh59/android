@@ -22,7 +22,7 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import android.support.design.widget.Snackbar;
 
 
-public class MainActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<Cursor>, View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<Cursor> {
 
     private static final String TAG = "ContentProviderDemo";
 
@@ -77,7 +77,15 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
 
 
     }
-
+    public void loadContacts(View view) {
+        if(firstTimeLoaded==false){
+                getLoaderManager().initLoader(1, null, this);
+                firstTimeLoaded=true;
+         }
+         else{
+              getLoaderManager().restartLoader(1,null,this);
+        }
+    }
 
     @Override
     public Loader<Cursor> onCreateLoader(int id, Bundle args) {
@@ -107,21 +115,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     @Override
     public void onLoaderReset(Loader<Cursor> loader) {
 
-    }
-
-    @Override
-    public void onClick(View view) {
-        switch (view.getId()) {
-            case R.id.buttonLoadData: if(firstTimeLoaded==false){
-                getLoaderManager().initLoader(1, null, this);
-                firstTimeLoaded=true;
-            }else{
-                getLoaderManager().restartLoader(1,null,this);
-            }
-                break;
-            default:
-                break;
-        }
     }
 
 }
