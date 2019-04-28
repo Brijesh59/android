@@ -105,7 +105,7 @@
 32. Broadcast Receiver
 33. [Alarm Manager](https://www.youtube.com/watch?v=yrpimdBRk5Q&t=38s)
 34. [Job Scheduling](https://www.youtube.com/playlist?list=PLLDv5YXzs14hFUZV8FDUxRiGeY4v96Ima)
-35. Notification Manager
+35. [Notification Manager](https://www.youtube.com/playlist?list=PLLDv5YXzs14j9fd4VrFRrAI3Q0aOWODUQ)
 36. Testing
       - Unit Testing
       - JUnits
