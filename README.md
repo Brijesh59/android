@@ -102,7 +102,7 @@
 30. Async Task
 31. Services
 32. Broadcast Receiver
-33. Pending Intent | Read -> [Link1](https://stackoverflow.com/questions/2808796/what-is-an-android-pendingintent) [Link2](https://www.journaldev.com/10463/android-notification-pendingintent) >There is no individual Program for Pending Intent. It is used with mostly Notification Manager, AlarmManager etc. So check out Notification Manager Videos for more.
+33. Pending Intent | Read -> [Link1](https://stackoverflow.com/questions/2808796/what-is-an-android-pendingintent) [Link2](https://www.journaldev.com/10463/android-notification-pendingintent) | Note: There is no individual Program for Pending Intent. It is used with mostly Notification Manager, AlarmManager etc. So check out Notification Manager Videos for more.
 34. [Alarm Manager](https://www.youtube.com/watch?v=yrpimdBRk5Q&t=38s)
 35. [Job Scheduling](https://www.youtube.com/playlist?list=PLLDv5YXzs14hFUZV8FDUxRiGeY4v96Ima)
 36. [Notification Manager](https://www.youtube.com/playlist?list=PLLDv5YXzs14j9fd4VrFRrAI3Q0aOWODUQ)
