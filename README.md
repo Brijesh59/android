@@ -27,7 +27,7 @@
    - RadioButton & RadioGroup
    - ToggleButton
    - Switch
-   - CardView
+   - [CardView](https://developer.android.com/guide/topics/ui/layout/cardview)
    - [FloatingActionButton](https://www.youtube.com/watch?v=EfvCMZgAqG4) | [Read](https://developer.android.com/guide/topics/ui/floating-action-button)
    - [ScrollView](https://www.youtube.com/watch?v=wzcFPFCYjFQ) | [Read](https://developer.android.com/reference/android/widget/ScrollView)
    - Rating Bar
