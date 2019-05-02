@@ -82,9 +82,9 @@
       - Normal AlertDialog 
       - Custom AlertDialog 
 22. ProgressBar
-23. Manifest file in Android
+23. [Manifest file in Android](https://www.youtube.com/watch?v=rwJwX6wMTxQ)
 24. ViewPager
-25. Creating swipe views with Tabs and ViewPager
+25. Creating swipe views with Tabs and ViewPager | [Read](https://medium.com/@droidbyme/android-material-design-tabs-tab-layout-with-swipe-884085ae80ff)
 26. [Navigation Drawer](https://www.youtube.com/playlist?list=PLLDv5YXzs14j3xu_eRGubzrONKKe3ukWr)
 27. Data Storage
       - [Shared Preferences](https://www.youtube.com/playlist?list=PLLDv5YXzs14jirXhhEoTJe07slJy8rvHw)
@@ -98,7 +98,7 @@
       - [Navigation Up and Back](https://www.youtube.com/watch?v=JkVdP-e9BCo)
       - Thread
       - Process
-29. Handling Orientation Changes in Android
+29. Handling Orientation Changes in Android | [Read](https://android.jlelse.eu/handling-orientation-changes-in-android-7072958c442a)
 30. Async Task
 31. Services
 32. Broadcast Receiver
