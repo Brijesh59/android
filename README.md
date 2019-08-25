@@ -90,7 +90,8 @@
       - [Shared Preferences](https://www.youtube.com/playlist?list=PLLDv5YXzs14jirXhhEoTJe07slJy8rvHw)
       - Internal Storage | [Code](https://github.com/Brijesh59/android/tree/master/Android-Projects/InternalStorage)
       - External Storage | [Code](https://github.com/Brijesh59/android/tree/master/Android-Projects/ExternalStorage)
-      - SQLite
+      - *SQLite
+      - Firebase
       - [ContentProvider & Loader](https://www.youtube.com/playlist?list=PLfuE3hOAeWhb7kirY4rBtTLVF73jEXwG4) | [Code](https://github.com/Brijesh59/android/tree/master/Android-Projects/ContentProvider-Loader)
 28. Threading
       - [Tasks](https://www.youtube.com/playlist?list=PLLDv5YXzs14ii8_J_Ew8nXraSqEknFHPs) *Just go with top 3 videos, it would be sufficient for the syllabus
@@ -108,8 +109,8 @@
 36. [Notification Manager](https://www.youtube.com/playlist?list=PLLDv5YXzs14j9fd4VrFRrAI3Q0aOWODUQ)
 37. Testing
      - Unit Testing
-      - JUnits
-      - Functional Testing
+     - JUnits
+     - Functional Testing
 38. [Deploying our app to google play store](https://www.youtube.com/watch?v=AWawL5HFn64)
 
 
