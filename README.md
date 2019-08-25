@@ -1,4 +1,5 @@
 # Android Contents
+[Link to Android Fundamentals Course: Youtube](https://www.youtube.com/playlist?list=PLlyCyjh2pUe9wv-hU4my-Nen_SvXIzxGB)
 1. Android Fundamentals
 2. Android Architecture
 3. Exploring Android Studio
